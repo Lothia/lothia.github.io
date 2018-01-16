@@ -34,6 +34,7 @@ navigation:
 # Pagination
 paginate: 5
 
+comments: false
 # Includes an icon in the footer for each username you enter
 footer-links:
   behance: # https://www.behance.net/<username>
