@@ -7,7 +7,7 @@ name: Lothia's notebook
 
 # Short bio or description (displayed in the header)
 description: My adventures with Linux desktop
-
+excerpt_separator: "<!-- more -->"
 #
 # Flags below are optional
 #
