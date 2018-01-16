@@ -39,7 +39,7 @@ Divert an extension;
 dpkg-divert --rename --divert /usr/lib/firefox/browser/features/hidden/activity-stream@mozilla.org.xpi --add /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
 Adding 'local diversion of /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi to /usr/lib/firefox/browser/features/hidden/activity-stream@mozilla.org.xpi'
 ~~~
-Now none of the users on the PC will see the newtab page, they’ll see a good old blank new tab. You should divert the other extensions too.
+Now none of the users on the PC will see the newtab page, they’ll see a good old blank new tab. You should consider diverting the other commented extensions too.
 
 To remove the diversion
 ~~~sh
