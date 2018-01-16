@@ -4,11 +4,8 @@ title: "How to get rid of Firefox's newtab page on Ubuntu"
 tags: [firefox, privacy]
 comments: false
 ---
-
-This will use `dpkg-divert`, so it is only for distributions like **Debian** and **Ubuntu**, which use `apt`.
-
 Firefox installs some global extensions to directories like /usr/lib/firefox/browser/features, turning them on for every user on the PC. These are hidden in Firefox’s extension page and some of these can’t be turned off.
-<!-- more -->
+This will use `dpkg-divert`, so it is only for distributions like **Debian** and **Ubuntu**, which use `apt`.
 
 The reason I’ll use `dkpg-divert` is to make the change persistent, the changes will not be lost on Firefox upgrade.
 
