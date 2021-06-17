@@ -7,7 +7,7 @@ comments: false
 
 My problem was about dracut's new bluetooth module. 
 
-Disable it with by creating a dot conf file in '/etc/dracut.conf.d' directory with this content 'omit_dracutmodules+=" bluetooth "' [*](https://github.com/dracutdevs/dracut/issues/1521#issuecomment-855325340)
+Disable it with by creating a dot conf file in `/etc/dracut.conf.d` directory with this content 'omit_dracutmodules+=" bluetooth "' [ref](https://github.com/dracutdevs/dracut/issues/1521#issuecomment-855325340)
 
 You can follow the issue [here](https://github.com/dracutdevs/dracut/issues/1521).
 
