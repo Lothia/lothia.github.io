@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Temporary solution for Fedore 32 stuck at Starting Switch root"
+title: "Temporary solution for Fedora 32 stuck at Starting Switch root"
 tags: [fedora, fedora32, dracut]
 comments: false
 ---
